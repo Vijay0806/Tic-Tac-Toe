@@ -1,0 +1,142 @@
+
+#heading{
+    text-align: center;
+    margin-top:40px;
+    color: rgb(250, 77, 9);
+    font-family:'Times New Roman', Times, serif;
+}
+/* Styles for Message Container */
+.msg-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+  /* Styles for Message Text */
+  #msg {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50; /* Green to indicate a positive message */
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for New Game Button */
+  #new-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2196f3; /* Blue color for visibility */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  #new-btn:hover {
+    background-color: #1976d2;
+  }
+  
+  #new-btn:active {
+    background-color: #1565c0;
+    transform: scale(0.98);
+  }
+  
+
+  .box:hover {
+    background-color: #dcdcdc;
+    transform: scale(1.05);
+  }
+  
+  .box:active {
+    background-color: #c0c0c0;
+  }
+  
+  /* Reset Button Styles */
+  #reset-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #reset-btn:hover {
+    background-color: #e64a19;
+  }
+  
+  #reset-btn:active {
+    background-color: #d84315;
+  }
+
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #heading {
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  /* Game Box Styles */
+  .game-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .box {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    /* color: #1565c0; */
+    background-color: #eaeaea;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .box:hover {
+    background-color: #dcdcdc;
+    transform: scale(1.05);
+  }
+  
+  .box:active {
+    background-color: #c0c0c0;
+  }
+
+  .hide{
+    display: none;
+}
+
+.hide2{
+    display:inline;
+}
